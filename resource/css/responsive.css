@@ -1,0 +1,101 @@
+/* Responsive file */
+
+@media screen and (max-width:992px) {
+    #head{
+		width:100%;
+		height:auto;
+        padding-bottom:0;
+	}
+    #head .logo {
+        font-size: 1.5rem;
+    }
+	#wining-project .col-lg-4{
+		margin-bottom:40px;
+	}
+	#service-pakage .service-ani{
+		margin-bottom:40px;
+	}
+	.service-sub:hover{
+		transform:scale(1);
+	  }
+	  .header-text{
+		width: 85%;
+		padding-top:2rem;
+	}
+	.h3-style{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	.tem-text h5 {
+		font-size: 2rem;
+	  }
+	  .package-sub h2 {
+		font-size: 2rem;
+	  }
+	  .h4-style {
+		font-size: 1rem;
+	  }
+	  .testi-text{
+		padding-bottom: 1rem;
+	  }
+	  #about-section img {
+		width: 280px;
+		height: 289px;
+	  }
+	  #about-section .img-body{
+		text-align: center;
+        margin-bottom: 40px;
+	  }
+	  .about-part2-text {
+		font-size: 1.5rem;
+	  }
+	  .animation-text {
+		font-size: 33px;
+	  }
+	  p{
+		font-size:16px;
+	}
+	.lead {
+		font-size: 1rem;
+	}
+	text{
+		font-size:10px;
+	}
+	
+}
+@media (max-width:767px) {
+	.uk-card-default{
+		height:480px;
+	}
+	.home-content .text-1{
+		font-size: 20px;
+	}
+	.home-content .text-2{
+		font-size: 40px;
+	}
+	.home-content .text-3{
+		font-size: 30px;
+	}
+	.single-box {
+		height:344px;
+	  }
+	  .home-content a {
+		padding: 0px 24px;
+	  }
+}
+@media (max-width:639px) {
+	.uk-card-default{
+		height:410px;
+	}
+	#service-details h4{
+		line-height: 1.2;
+	}
+}
+@media (max-width:320px){
+	.single-box {
+		height: 450px;
+	  }
+	#service-details h4{
+		line-height: 1.2;
+	}
+}
